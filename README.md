@@ -63,11 +63,10 @@ _**3.3. Run RFM model**_
 - Remove blank user_id record to apply RFM model
 - Calculate RFM score
 - Segment customers by RFM score
-![image](https://github.com/nguyennhu0805/DE_ZoomCamp_2024_Final_Project/assets/104962044/4779edf3-3980-4b6f-97ef-c5aad2355dba)
-
-
+![image](https://steps.tn/wp-content/uploads/2022/01/rfm-768x598.png)
 
 **4. Dashboard**
 Link: 
+
 
    

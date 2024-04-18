@@ -23,7 +23,7 @@ To guide my analysis and address the objectives outlined above, I will explore t
 
 **2. Dataset Overview**
 
-In this section, I will provide an overview of the purchase data obtained from an electronics online store, covering the period from April 2020 to November 2020. The dataset is sourced from Kaggle ([LINK](https://www.kaggle.com/datasets/mkechinov/ecommerce-purchase-history-from-electronics-store?rvi=1)) and can be found in the folder named _**data**_ with the filename ecommerce_electric_data.csv.
+In this section, I will provide an overview of the purchase data obtained from an electronics online store, covering the period from April 2020 to November 2020. The dataset is sourced from Kaggle ([LINK](https://www.kaggle.com/datasets/mkechinov/ecommerce-purchase-history-from-electronics-store?rvi=1))
 
 The dataset contains information about purchases made on the electronics online store, including:
 - event_time: When event is was happened

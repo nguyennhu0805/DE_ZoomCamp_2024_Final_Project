@@ -1,9 +1,9 @@
 # DE_ZoomCamp_2024_Final_Project
 **1. Problem Define**
-
 In this section, I will outline the problem statement and objectives of my project, focusing on the analysis of purchase data from an online store specializing in home appliances and electronics from April 2020 to November 2020.
 
 1.1 Problem Statement
+
 My primary objective is to analyze the purchase performance of the electronics online store over the specified time period. This involves understanding customer behavior, identifying trends, and uncovering insights that can drive strategic decisions to enhance business performance.
 
 1.2 Objectives
@@ -12,6 +12,7 @@ My primary objective is to analyze the purchase performance of the electronics o
 - Dashboard Creation: Develop a user-friendly dashboard to visualize key metrics and insights derived from the analysis, enabling stakeholders to monitor and track the performance of the online store effectively.
   
 1.3 Key Questions
+
 To guide my analysis and address the objectives outlined above, I will explore the following key questions:
 - What are the sales trends over the specified time period?
 - What are the most popular categories?

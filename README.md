@@ -17,7 +17,7 @@ _**1.3 Key Questions**_
 To guide my analysis and address the objectives outlined above, I will explore the following key questions:
 - What are the sales trends over the specified time period?
 - What are the most popular categories?
-- How frequently do customers make purchases, and what is the distribution of purchase amounts?
+- What are the most popular brands?
 - How can I segment customers based on their recency, frequency, and monetary value?
   
 
@@ -44,7 +44,7 @@ In this section, I will outline the data pipeline for ingesting, processing, and
 
 _**3.1. ETL to Data Lake (GCS)**_
 
-File: code/
+File: code/load_data_kaggle_to_gcs.py
 - Extract data from local file (ecommerce_electric_data.csv)
 - Transfrom data:
   * Add event_date column to save data in multiple files
@@ -54,7 +54,7 @@ File: code/
 
 _**3.2. ETL data from Data Lake (GCS) to Data Warehouse (Big Query)**_
 
-File: code/
+File: code/load_data_from_gcs_to_bigquery.py
 - Extract data from GCS
 - Transform data:
   * Refine data type
@@ -65,7 +65,7 @@ File: code/
 
 _**3.3. Run RFM model**_
 
-File: code/
+File: code/rfm_model.sql
 - Remove blank user_id record to apply RFM model
 - Calculate RFM score
 - Segment customers by RFM score
@@ -74,6 +74,10 @@ File: code/
 **4. Dashboard**
 
 Link: https://lookerstudio.google.com/reporting/751c63b5-2e06-41f5-bef4-c2ee1359f2b9 
+
+![image](https://github.com/nguyennhu0805/DE_ZoomCamp_2024_Final_Project/assets/104962044/fc30d35d-49ba-417b-ade4-c9846a6f8b74)
+
+
 
 
    

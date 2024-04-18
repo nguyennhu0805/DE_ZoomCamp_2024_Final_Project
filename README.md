@@ -39,7 +39,8 @@ The dataset contains information about purchases made on the electronics online 
 
 In this section, I will outline the data pipeline for ingesting, processing, and analyzing the purchase data from the electronics online store. The pipeline consists of three main stages: ETL data to Data Lake (GCS), ETL data to Data Warehouse (Big Query), and RFM model execution to Segment customers.
 
-![image](https://github.com/nguyennhu0805/DE_ZoomCamp_2024_Final_Project/assets/104962044/3ec28ef5-56ef-4836-9c47-7647def8746b)
+![image](https://github.com/nguyennhu0805/DE_ZoomCamp_2024_Final_Project/assets/104962044/f628924c-dd6d-4403-8007-7517d075468f)
+
 
 
 _**3.1. ETL to Data Lake (GCS)**_
@@ -66,6 +67,7 @@ File: code/load_data_from_gcs_to_bigquery.py
 _**3.3. Run RFM model**_
 
 File: code/rfm_model.sql
+Schedule the query in "Schedule queries" section of Big Query
 - Remove blank user_id record to apply RFM model
 - Calculate RFM score
 - Segment customers by RFM score
